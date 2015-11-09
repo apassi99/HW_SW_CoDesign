@@ -1,0 +1,103 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\altera\HW\Custom_Instruction_Example\qsystop.qsys --block-symbol-file --output-directory=C:\altera\HW\Custom_Instruction_Example\qsystop --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading Custom_Instruction_Example/qsystop.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 15.0]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 15.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 15.0]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 15.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding timer_0 [altera_avalon_timer 15.0]
+Progress: Parameterizing module timer_0
+Progress: Adding timer_1 [altera_avalon_timer 15.0]
+Progress: Parameterizing module timer_1
+Progress: Adding xor_module_0 [xor_module 1.0]
+Progress: Parameterizing module xor_module_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\altera\HW\Custom_Instruction_Example\qsystop.qsys --synthesis=VERILOG --output-directory=C:\altera\HW\Custom_Instruction_Example\qsystop\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading Custom_Instruction_Example/qsystop.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 15.0]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 15.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 15.0]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 15.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding timer_0 [altera_avalon_timer 15.0]
+Progress: Parameterizing module timer_0
+Progress: Adding timer_1 [altera_avalon_timer 15.0]
+Progress: Parameterizing module timer_1
+Progress: Adding xor_module_0 [xor_module 1.0]
+Progress: Parameterizing module xor_module_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsystop: Generating qsystop "qsystop" for QUARTUS_SYNTH
+Info: jtag_uart_0: Starting RTL generation for module 'qsystop_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/15.0/quartus/bin64/perl/lib -I C:/altera/15.0/quartus/sopc_builder/bin/europa -I C:/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0/quartus/sopc_builder/bin -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=qsystop_jtag_uart_0 --dir=C:/Users/ARJUNP~1/AppData/Local/Temp/alt6748_3505206452424530287.dir/0001_jtag_uart_0_gen/ --quartus_dir=C:/altera/15.0/quartus --verilog --config=C:/Users/ARJUNP~1/AppData/Local/Temp/alt6748_3505206452424530287.dir/0001_jtag_uart_0_gen//qsystop_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'qsystop_jtag_uart_0'
+Info: jtag_uart_0: "qsystop" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: nios2_gen2_0: "qsystop" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'qsystop_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/altera/15.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/15.0/quartus/bin64/perl/lib -I C:/altera/15.0/quartus/sopc_builder/bin/europa -I C:/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0/quartus/sopc_builder/bin -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=qsystop_onchip_memory2_0 --dir=C:/Users/ARJUNP~1/AppData/Local/Temp/alt6748_3505206452424530287.dir/0002_onchip_memory2_0_gen/ --quartus_dir=C:/altera/15.0/quartus --verilog --config=C:/Users/ARJUNP~1/AppData/Local/Temp/alt6748_3505206452424530287.dir/0002_onchip_memory2_0_gen//qsystop_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'qsystop_onchip_memory2_0'
+Info: onchip_memory2_0: "qsystop" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: timer_0: Starting RTL generation for module 'qsystop_timer_0'
+Info: timer_0:   Generation command is [exec C:/altera/15.0/quartus/bin64//perl/bin/perl.exe -I C:/altera/15.0/quartus/bin64//perl/lib -I C:/altera/15.0/quartus/sopc_builder/bin/europa -I C:/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0/quartus/sopc_builder/bin -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera/15.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=qsystop_timer_0 --dir=C:/Users/ARJUNP~1/AppData/Local/Temp/alt6748_3505206452424530287.dir/0003_timer_0_gen/ --quartus_dir=C:/altera/15.0/quartus --verilog --config=C:/Users/ARJUNP~1/AppData/Local/Temp/alt6748_3505206452424530287.dir/0003_timer_0_gen//qsystop_timer_0_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_0: Done RTL generation for module 'qsystop_timer_0'
+Info: timer_0: "qsystop" instantiated altera_avalon_timer "timer_0"
+Info: xor_module_0: "qsystop" instantiated xor_module "xor_module_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "qsystop" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "qsystop" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "qsystop" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'qsystop_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/altera/15.0/quartus/bin64/eperlcmd.exe -I C:/altera/15.0/quartus/bin64/perl/lib -I C:/altera/15.0/quartus/sopc_builder/bin/europa -I C:/altera/15.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0/quartus/sopc_builder/bin -I C:/altera/15.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/altera/15.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/altera/15.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/altera/15.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/altera/15.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=qsystop_nios2_gen2_0_cpu --dir=C:/Users/ARJUNP~1/AppData/Local/Temp/alt6748_3505206452424530287.dir/0007_cpu_gen/ --quartus_bindir=C:/altera/15.0/quartus/bin64 --verilog --config=C:/Users/ARJUNP~1/AppData/Local/Temp/alt6748_3505206452424530287.dir/0007_cpu_gen//qsystop_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2015.11.08 20:27:47 (*) Starting Nios II generation
+Info: cpu: # 2015.11.08 20:27:47 (*)   Checking for plaintext license.
+Info: cpu: # 2015.11.08 20:27:49 (*)   Couldn't query license setup in Quartus directory C:/altera/15.0/quartus/bin64
+Info: cpu: # 2015.11.08 20:27:49 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2015.11.08 20:27:49 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2015.11.08 20:27:49 (*)   Plaintext license not found.
+Info: cpu: # 2015.11.08 20:27:49 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2015.11.08 20:27:49 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2015.11.08 20:27:49 (*)   Creating all objects for CPU
+Info: cpu: # 2015.11.08 20:27:51 (*)   Generating RTL from CPU objects
+Info: cpu: # 2015.11.08 20:27:51 (*)   Creating plain-text RTL
+Info: cpu: # 2015.11.08 20:27:53 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'qsystop_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/altera/HW/Custom_Instruction_Example/qsystop/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: qsystop: Done "qsystop" with 23 modules, 36 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
