@@ -1,5 +1,7 @@
 # HELLO FPGA WORLD
 
+Some Verilog and C code running on [DE2-115 FPGA Board](https://de2-115.terasic.com/)
+
 # Nios II Custom Instruction Example
 
 The Custom Instruction example provides a small explanation to transforming a simple software program into a combination or cyclic based hardware description. For more information read https://www.altera.com/en_US/pdfs/literature/ug/ug_nios2_custom_instruction.pdf. The example provided is a combinational custom instruction ([XOR operation](Custom_Instruction_Example/xor_module.v)) which is logic block that completes its logic function in a single clock cycle.
